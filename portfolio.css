@@ -38,7 +38,7 @@ color:whitesmoke;
 
 .containerPortfolio{
   position: relative;
-  height:250px;
+  height:fit-content;
   text-align: center;
   
   
@@ -134,7 +134,7 @@ body {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 30%;
+  width: fit-content;
   margin-right: 35%;
   margin-left: 35%;
   text-align: center;

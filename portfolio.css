@@ -66,9 +66,8 @@ color:whitesmoke;
 }
 .imageAppContainerTitle{
   text-align: center;
-
-
 }
+
 .imageApp { 
   display: flex;
   grid-area: auto;

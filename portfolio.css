@@ -51,39 +51,34 @@ color:whitesmoke;
 .containerPortfolio{
   position: relative;
   height:fit-content;
-  text-align: center;
-
-    
-}
-
-.imageAppContainer{
-  display: flex;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-column-gap: 5px
-
+  text-align: center;  
 }
 .imageAppContainerTitle{
   text-align: center;
 }
-
-.imageApp { 
+.imageAppContainer{
   display: flex;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 5px
+} 
+.imageApp { 
+  display: block;
   grid-area: auto;
   height: 350px;
-  align-self: left;
-  margin-left: 35%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
   width: auto;
  }
-
-.imageAppText { 
-  display: flex;
+ .imageAppText { 
+  display: block;
   grid-area: auto;
   height: 400px;
-  align-self: right;
-  margin-right: 25%;
-  width: 40%;
+  align-self: center;
+  margin-top: auto;
+  width: auto;
  }
 
 .nameInput{
@@ -173,33 +168,35 @@ body {
     .parallax  {
       background-attachment: scroll;
     }
-    .imageAppContainer{
-      display: flex;
-      /* grid-template-rows: 50% 50%;
-      grid-column-gap: 5px */
-    
-    }
-    .imageAppContainerTitle{
-      text-align: center;
-    }
-    
-    .imageApp { 
-      display: flex;
-      grid-area: auto;
-      height: 350px;
-      align-self: center;
-      margin-left: 35%;
-      width: auto;
-     }
-    
-    .imageAppText { 
-      display: flex;
-      grid-area: auto;
-      height: 400px;
-      align-self: right;
-      margin-right: 25%;
-      width: 40%;
-     }
+  .imageAppContainer{
+  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 5px
+
+} 
+.imageAppContainerTitle{
+  text-align: center;
+}
+
+.imageApp { 
+  display: flex;
+  grid-area: auto;
+  height: 350px;
+  align-self: left;
+  margin-left: 35%;
+  width: auto;
+ }
+
+.imageAppText { 
+  display: flex;
+  grid-area: auto;
+  height: 400px;
+  align-self: right;
+  margin-right: 25%;
+  width: 40%;
+ }
   }
 
 }

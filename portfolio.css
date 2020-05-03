@@ -52,7 +52,7 @@ color:whitesmoke;
   position: relative;
   height:fit-content;
   text-align: center;
-  min-height: 100px; 
+
     
 }
 
@@ -167,10 +167,39 @@ body {
   .nav {
     background-color: #444;
   }
+
+
   @media only screen and (max-device-width: 1366px) {
     .parallax  {
       background-attachment: scroll;
     }
+    .imageAppContainer{
+      display: flex;
+      /* grid-template-rows: 50% 50%;
+      grid-column-gap: 5px */
+    
+    }
+    .imageAppContainerTitle{
+      text-align: center;
+    }
+    
+    .imageApp { 
+      display: flex;
+      grid-area: auto;
+      height: 350px;
+      align-self: center;
+      margin-left: 35%;
+      width: auto;
+     }
+    
+    .imageAppText { 
+      display: flex;
+      grid-area: auto;
+      height: 400px;
+      align-self: right;
+      margin-right: 25%;
+      width: 40%;
+     }
   }
 
 }

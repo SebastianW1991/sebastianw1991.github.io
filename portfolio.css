@@ -168,36 +168,38 @@ body {
     .parallax  {
       background-attachment: scroll;
     }
-  .imageAppContainer{
-  display: flex;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-column-gap: 5px
+  }
+ 
+    .imageAppContainer{
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 5px
 
-} 
-.imageAppContainerTitle{
-  text-align: center;
-}
-
-.imageApp { 
-  display: flex;
-  grid-area: auto;
-  height: 350px;
-  align-self: left;
-  margin-left: 35%;
-  width: auto;
- }
-
-.imageAppText { 
-  display: flex;
-  grid-area: auto;
-  height: 400px;
-  align-self: right;
-  margin-right: 25%;
-  width: 40%;
- }
+  } 
+  .imageAppContainerTitle{
+    text-align: center;
   }
 
-}
+  .imageApp { 
+    display: flex;
+    grid-area: auto;
+    height: 350px;
+    align-self: left;
+    margin-left: 35%;
+    width: auto;
+  }
+
+  .imageAppText { 
+    display: flex;
+    grid-area: auto;
+    height: 400px;
+    align-self: right;
+    margin-right: 25%;
+    width: 40%;
+   }
+  }
+
+
 

@@ -116,7 +116,7 @@ color:whitesmoke;
   grid-template-rows: 50% 50%;
   grid-column-gap: 5px
 } 
- .imageMPortfolioTest { 
+ .imagePortfolioTest { 
   display: flex;
   grid-area: auto;
   height: 350px;
@@ -156,7 +156,12 @@ body {
 
   background: #ccc;
 }
+.footer{
+  background: #ccc;
+  text-align: center;
+  font-size: 1.25em;
 
+}
 .nav ul {
   list-style: none;
   background-color: #444;

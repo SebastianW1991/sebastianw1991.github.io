@@ -80,7 +80,60 @@ color:whitesmoke;
   margin-top: auto;
   width: auto;
  }
-
+ .imageMerchantSimContainerTitle{
+  text-align: center;
+}
+.imageMerchantSimContainer{
+  display: flex;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 5px
+} 
+ .imageMerchantSim { 
+  display: flex;
+  grid-area: auto;
+  height: 350px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  width: 70%;
+ }
+ .imageMerchantSimText { 
+  display: block;
+  grid-area: auto;
+  height: 400px;
+  align-self: center;
+  margin-top: auto;
+  width: auto;
+ }
+ .imageTestTitle{
+  text-align: center;
+}
+.imageTestContainer{
+  display: flex;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 5px
+} 
+ .imageMPortfolioTest { 
+  display: flex;
+  grid-area: auto;
+  height: 350px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  width: 70%;
+ }
+ .imagePortfolioTestText { 
+  display: block;
+  grid-area: auto;
+  height: 400px;
+  align-self: center;
+  margin-top: auto;
+  width: auto;
+ }
 .nameInput{
  width: 50%;
  margin-left: 25%;
@@ -196,10 +249,70 @@ body {
     grid-area: auto;
     height: 400px;
     align-self: right;
+    margin-left: 25%;
     margin-right: 25%;
     width: 40%;
    }
+    
+   .imageMerchantSimContainer{
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 5px
+
+  }
+   .imageAppContainerTitle{
+    text-align: center;
   }
 
+  .imageMerchantSim { 
+    display: flex;
+    grid-area: auto;
+    height: 350px;
+    align-self: left;
+    margin-left: 25%;
+    width: 70%;
+  }
 
+  .imageMerchantSimText { 
+    display: flex;
+    grid-area: auto;
+    height: 400px;
+    align-self: right;
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 40%;
+   }
+   .imageTestContainer{
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 5px
 
+  }
+   .imageTestTitle{
+    text-align: center;
+  }
+
+  .imagePortfolioTest { 
+    display: flex;
+    grid-area: auto;
+    height: 350px;
+    align-self: left;
+    margin-left: 25%;
+    width: 70%;
+  }
+
+  .imagePortfolioTestText { 
+    display: flex;
+    grid-area: auto;
+    height: 400px;
+    align-self: right;
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 40%;
+   }
+
+  }
